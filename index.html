@@ -6,22 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>القارئ حسام الدين عبادي</title>
     <link href="/style.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
     <!-- Desktop Navbar -->
     <div class="navbar sticky">
       <div class="brand">
-        <a href="/" class="brand"><i class="fa-solid fa-house"></i></a>
+        <a href="/" class="brand"><img src="/images/home.svg" /></a>
       </div>
       <div class="nav-links">
-        <a href="/">الرئيسية <i class="fa-solid fa-house"></i></a>
-        <a href="#about">حول الموقع <i class="fa-solid fa-address-card"></i></a>
-        <a href="#contact">تواصل معنا <i class="fa-regular fa-message"></i></a>
+        <a href="/">الرئيسية<img src="/images/home.svg" /></a>
+        <a href="#about">حول الموقع<img src="/images/adresse.svg" /> </a>
+        <a href="#contact">تواصل معنا<img src="/images/message.svg" /></a>
       </div>
     </div>
 
@@ -31,37 +27,44 @@
       <header>القارئ حسام الدين عبادي</header>
       <ul class="nav">
         <li>
-          <a href="/">الرئيسية <i class="fa-solid fa-house"></i></a>
+          <a class="navlist" href="/"
+            >الرئيسية <img src="/images/home.svg"
+          /></a>
         </li>
         <li>
-          <a href="/about"
-            >حول الموقع <i class="fa-solid fa-address-card"></i
-          ></a>
+          <a class="navlist" href="/about"
+            >حول الموقع <img src="/images/adresse.svg"
+          /></a>
         </li>
         <li>
-          <a href="/contact"
-            >تواصل معنا <i class="fa-regular fa-message"></i
-          ></a>
+          <a class="navlist" href="/contact"
+            >تواصل معنا <img src="/images/message.svg"
+          /></a>
         </li>
-        <li class="social">
-          <a
-            class="smGlobalBtn"
-            href="https://www.facebook.com/AlabbadiOfficialFanPage/"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a class="smGlobalBtn" href="abbadi_houssem"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-          <a
-            class="smGlobalBtn"
-            href="https://www.youtube.com/channel/UCTMpPnjnsWPLXOHB-geitrg"
-            ><i class="fab fa-youtube"></i
-          ></a>
-          <a
-            class="smGlobalBtn"
-            href="https://www.instagram.com/abbadi_houssem/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
+        <li>
+          <div class="container">
+            <a
+              class="socialbtn"
+              href="https://www.facebook.com/AlabbadiOfficialFanPage/"
+            >
+              <img src="/images/facebook.svg"
+            /></a>
+
+            <a class="socialbtn" href="https://www.twitter.com/abbadi_houssem">
+              <img src="/images/twitter.svg" />
+            </a>
+            <a
+              class="socialbtn"
+              href="https://www.youtube.com/channel/UCTMpPnjnsWPLXOHB-geitrg"
+            >
+              <img src="/images/youtube.svg"
+            /></a>
+            <a
+              class="socialbtn"
+              href="https://www.instagram.com/abbadi_houssem/"
+              ><img src="/images/instagram.svg"
+            /></a>
+          </div>
         </li>
       </ul>
     </nav>
@@ -69,12 +72,13 @@
     <!-- improve main element 3d movement -->
     <main class="main">
       <section class="intro">
-        <img src="/images/quran-background.png" alt="حسام الدين عبادي" />
+        <img src="/images/quran-background.webp" alt="حسام الدين عبادي" />
         <h1>القارئ حسام الدين عبادي</h1>
       </section>
       <section class="section">
         <h2>القرآن الكريم</h2>
         <div class="separator"></div>
+
         <div class="container">
           <div class="card">
             <h3>رواية حفص عن عاصم</h3>
@@ -124,33 +128,32 @@
       <section class="section" id="contact">
         <h2><i class="fa-regular fa-message"></i> تواصل معنا</h2>
         <div class="separator"></div>
-        <div class="social container">
-          <div class="nav">
-            <a
-              class="smGlobalBtn"
-              href="https://www.facebook.com/AlabbadiOfficialFanPage/"
-              ><i class="fa-brands fa-facebook-f"></i
-            ></a>
-            <a class="smGlobalBtn" href="abbadi_houssem"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-            <a
-              class="smGlobalBtn"
-              href="https://www.youtube.com/channel/UCTMpPnjnsWPLXOHB-geitrg"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a
-              class="smGlobalBtn"
-              href="https://www.instagram.com/abbadi_houssem/"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </div>
+        <div class="container">
+          <a
+            class="socialbtn"
+            href="https://www.facebook.com/AlabbadiOfficialFanPage/"
+          >
+            <img src="/images/facebook.svg"
+          /></a>
+
+          <a class="socialbtn" href="https://www.twitter.com/abbadi_houssem">
+            <img src="/images/twitter.svg" />
+          </a>
+          <a
+            class="socialbtn"
+            href="https://www.youtube.com/channel/UCTMpPnjnsWPLXOHB-geitrg"
+          >
+            <img src="/images/youtube.svg"
+          /></a>
+          <a class="socialbtn" href="https://www.instagram.com/abbadi_houssem/"
+            ><img src="/images/instagram.svg"
+          /></a>
         </div>
       </section>
       <div style="margin-top: 50px"></div>
     </main>
     <button onclick="goToTop()" id="gototop" title="Go to top">
-      <i class="fas fa-arrow-up"></i>
+      <img src="/images/arrow-up.svg" />
     </button>
     <footer class="footer">
       <span class="center"> حسام الدين عبادي ©2022 </span>
